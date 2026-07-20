@@ -89877,7 +89877,7 @@ $1(a){var s=this
 return new A.jK(new A.at5(s.a,s.b,s.c,s.d,s.e,a),null)},
 $S:70}
 A.at5.prototype={
-$2(a,b){var s=this,r=null,q=s.b,p=s.c,o=s.d,n=s.e,m=t.p,l=A.jH(A.cU(A.b([B.ZT,B.cu,A.cZ(q,B.Jm,r,r,1,!1,r,r),B.bb,A.cZ(p,B.Jt,r,r,1,!0,r,r),B.bb,A.cZ(o,B.JF,r,r,1,!1,r,r),B.bb,A.cZ(n,B.Jh,r,r,1,!1,r,r)],m),B.E,B.B,B.aE),r,r),k=s.f,j=A.di(B.bc,new A.at3(k),r),i=A.dc(r,r,B.bw,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),h=s.a,g=h.a
+$2(a,b){var s=this,r=null,q=s.b,p=s.c,o=s.d,n=s.e,m=t.p,l=A.jH(A.cU(A.b([B.ZT,B.cu,A.cZ(q,B.Jr,r,r,1,!1,r,r),B.bb,A.cZ(p,B.Js,r,r,1,!0,r,r),B.bb,A.cZ(o,B.Jz,r,r,1,!1,r,r),B.bb,A.cZ(n,B.Ju,r,r,1,!1,r,r)],m),B.E,B.B,B.aE),r,r),k=s.f,j=A.di(B.bc,new A.at3(k),r),i=A.dc(r,r,B.bw,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),h=s.a,g=h.a
 q=g?r:new A.at4(h,q,p,o,n,b,k,a)
 return A.e3(A.b([j,A.dW(g?B.AC:B.ZO,q,i)],m),B.f,l,B.ZQ)},
 $S:68}
@@ -90205,7 +90205,7 @@ A.atX.prototype={
 $1(a){return a.length!==0},
 $S:24}
 A.atW.prototype={
-$1(a){var s=null,r=this.b,q=A.cZ(r,B.Jl,s,s,1,!1,s,s)
+$1(a){var s=null,r=this.b,q=A.cZ(r,B.Jk,s,s,1,!1,s,s)
 return A.e3(A.b([A.di(B.bc,new A.atU(a),s),A.dW(B.fN,new A.atV(this.a,r,a),A.dc(s,s,B.bh,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),B.f,q,B.ZD)},
 $S:15}
 A.atU.prototype={
@@ -90252,7 +90252,7 @@ h=A.n(i).i("b5<1>")
 j=A.hh(new A.b5(i,h),new A.atD(),h.i("m.E"),j)
 j=A.T(j,A.n(j).i("m.E"))
 h=g.e
-k=A.b([n,B.cu,m,B.cv,A.pI(B.Jn,f,j,new A.atE(e,b,h,i),l,k),B.bb,A.aKi(B.bh,new A.atF(e,b),B.Be,e.d)],p)
+k=A.b([n,B.cu,m,B.cv,A.pI(B.Jl,f,j,new A.atE(e,b,h,i),l,k),B.bb,A.aKi(B.bh,new A.atF(e,b),B.Be,e.d)],p)
 if(e.c!=null){n=A.n(h)
 m=A.er(A.b([B.Zw,A.di(A.aG(new A.b7(h,n.i("b7<2>")).dd(0,new A.atG())?"Deseleccionar todos":"Seleccionar todos",f,f,f,B.B8,f,f),new A.atH(b,h),f)],p),B.E,B.dl,B.X,0)
 n=n.i("b5<1>")
@@ -90603,7 +90603,7 @@ s.push(B.cv)
 s.push(A.aG("TOTAL GENERAL: "+B.d.ac(A.aUN(),2)+" Bs.",p,p,p,B.WH,p,p))
 s=new A.bB(B.c4,A.cU(s,B.E,B.B,B.X),p)}return A.kG(n,A.jH(s,p,B.fZ),r,p)}}
 A.aux.prototype={
-$1(a){var s=null,r=this.a,q=A.cZ(r,B.Js,s,s,1,!1,s,s)
+$1(a){var s=null,r=this.a,q=A.cZ(r,B.Jq,s,s,1,!1,s,s)
 return A.e3(A.b([A.di(B.fO,new A.auv(a),s),A.dW(B.eg,new A.auw(r,a,this.b),A.dc(s,s,B.ab,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),B.f,q,B.a_a)},
 $S:15}
 A.auv.prototype={
@@ -90656,7 +90656,7 @@ A.auu.prototype={
 $1(a){return a.iK()},
 $S:552}
 A.aus.prototype={
-$1(a){var s=this,r=null,q=s.b,p=s.c,o=s.d,n=t.p,m=A.jH(A.cU(A.b([A.cZ(q,B.JA,r,r,1,!1,r,r),B.bb,A.cZ(p,B.Jp,r,B.iP,1,!1,r,r),B.bb,A.cZ(o,B.pf,r,B.iP,1,!1,r,r)],n),B.E,B.B,B.aE),r,r)
+$1(a){var s=this,r=null,q=s.b,p=s.c,o=s.d,n=t.p,m=A.jH(A.cU(A.b([A.cZ(q,B.JB,r,r,1,!1,r,r),B.bb,A.cZ(p,B.Jn,r,B.iP,1,!1,r,r),B.bb,A.cZ(o,B.pf,r,B.iP,1,!1,r,r)],n),B.E,B.B,B.aE),r,r)
 return A.e3(A.b([A.di(B.bc,new A.auq(a),r),A.di(B.Zl,new A.aur(s.a,q,s.e,o,p,a),r)],n),r,m,B.Z7)},
 $S:15}
 A.auq.prototype={
@@ -90790,22 +90790,22 @@ $1(a){var s=this
 return new A.jK(new A.aBh(s.a,s.b,s.c,s.d,s.e,s.f,s.r,a),null)},
 $S:70}
 A.aBh.prototype={
-$2(a,b){var s,r,q,p,o=this,n=null,m=o.b,l=A.cZ(m,B.Jk,n,n,1,!1,n,n),k=o.c,j=A.cZ(k,B.Jw,n,n,1,!1,n,n),i=o.a,h=i.a,g=o.d,f=A.a0(g).i("a4<1,fm<l>>")
+$2(a,b){var s,r,q,p,o=this,n=null,m=o.b,l=A.cZ(m,B.Jj,n,n,1,!1,n,n),k=o.c,j=A.cZ(k,B.Jw,n,n,1,!1,n,n),i=o.a,h=i.a,g=o.d,f=A.a0(g).i("a4<1,fm<l>>")
 g=A.T(new A.a4(g,new A.aB9(),f),f.i("at.E"))
 f=t.N
-h=A.h8(A.pI(B.JD,n,g,new A.aBa(i,b),h,f))
+h=A.h8(A.pI(B.JE,n,g,new A.aBa(i,b),h,f))
 g=i.b
 s=o.e
 r=A.a0(s).i("a4<1,fm<l>>")
 s=A.T(new A.a4(s,new A.aBb(),r),r.i("at.E"))
-g=A.h8(A.pI(B.JC,n,s,new A.aBc(i,b),g,f))
+g=A.h8(A.pI(B.JD,n,s,new A.aBc(i,b),g,f))
 s=i.c
 r=o.f
 q=A.a0(r).i("a4<1,fm<l>>")
 r=A.T(new A.a4(r,new A.aBd(),q),q.i("at.E"))
 q=t.p
 p=o.r
-f=A.jH(A.cR(A.cU(A.b([l,B.bb,j,B.cu,B.BT,B.fG,A.er(A.b([h,B.fF,g,B.fF,A.h8(A.pI(B.Jz,n,r,new A.aBe(i,b),s,f))],q),B.E,B.B,B.X,0),B.cu,A.cZ(p,B.Jr,n,n,2,!1,n,n)],q),B.E,B.B,B.aE),n,500),n,n)
+f=A.jH(A.cR(A.cU(A.b([l,B.bb,j,B.cu,B.BT,B.fG,A.er(A.b([h,B.fF,g,B.fF,A.h8(A.pI(B.JA,n,r,new A.aBe(i,b),s,f))],q),B.E,B.B,B.X,0),B.cu,A.cZ(p,B.Jp,n,n,2,!1,n,n)],q),B.E,B.B,B.aE),n,500),n,n)
 q=A.b([],q)
 if(!i.d)q.push(A.di(B.bc,new A.aBf(o.w),n))
 l=A.dc(n,n,B.ab,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
@@ -91162,7 +91162,7 @@ A.asC.prototype={
 $0(){return this.a.e=!1},
 $S:0}
 A.asD.prototype={
-$1(a){var s=null,r=this.a,q=r.a,p=A.aG(q?"Crear BD Alternativa":"Crear Base Oficial",s,s,s,s,s,s),o=this.c,n=t.p,m=A.cU(A.b([A.aG(q?"Crear\xe1s una base alternativa.":"No existe Base Oficial. Crea la oficial y sube tu CSV maestro.",s,s,s,B.X1,s,s),B.cu,A.cZ(o,B.JE,s,s,1,!1,s,s)],n),B.E,B.B,B.aE)
+$1(a){var s=null,r=this.a,q=r.a,p=A.aG(q?"Crear BD Alternativa":"Crear Base Oficial",s,s,s,s,s,s),o=this.c,n=t.p,m=A.cU(A.b([A.aG(q?"Crear\xe1s una base alternativa.":"No existe Base Oficial. Crea la oficial y sube tu CSV maestro.",s,s,s,B.X1,s,s),B.cu,A.cZ(o,B.JF,s,s,1,!1,s,s)],n),B.E,B.B,B.aE)
 return A.e3(A.b([A.di(B.bc,new A.asx(a),s),A.dW(B.fN,new A.asy(r,this.b,o,a),A.dc(s,s,B.ab,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],n),s,m,p)},
 $S:15}
 A.asx.prototype={
@@ -91421,7 +91421,7 @@ $1(a){var s=this.a
 return s.a.f.am(0,a)&&!J.d(J.X(s.a.f.h(0,a),"id"),s.a.d)},
 $S:24}
 A.arr.prototype={
-$1(a){var s=null,r=this.b,q=t.p,p=A.cU(A.b([A.cZ(r,B.Jq,s,s,1,!1,s,s)],q),B.E,B.B,B.aE)
+$1(a){var s=null,r=this.b,q=t.p,p=A.cU(A.b([A.cZ(r,B.Jo,s,s,1,!1,s,s)],q),B.E,B.B,B.aE)
 return A.e3(A.b([A.di(B.bc,new A.arp(a),s),A.dW(B.fN,new A.arq(this.a,r,a),A.dc(s,s,B.ab,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],q),s,p,B.a__)},
 $S:15}
 A.arp.prototype={
@@ -91510,12 +91510,12 @@ $1(a){var s=this
 return new A.jK(new A.arL(s.a,s.b,s.c,a,s.d),null)},
 $S:70}
 A.arL.prototype={
-$2(a,b){var s,r,q,p=this,o=null,n=p.c,m=A.cZ(n,B.Jj,o,o,1,!1,o,o),l=p.a,k=l.a,j=p.b,i=j.a.r
+$2(a,b){var s,r,q,p=this,o=null,n=p.c,m=A.cZ(n,B.Ji,o,o,1,!1,o,o),l=p.a,k=l.a,j=p.b,i=j.a.r
 i=A.lI(i,A.a0(i).c)
 s=A.n(i).i("lq<1,fm<l>>")
 i=A.T(new A.lq(i,new A.arD(),s),s.i("m.E"))
 s=t.N
-k=A.pI(B.Jo,B.a_4,i,new A.arE(l,b),k,s)
+k=A.pI(B.Jm,B.a_4,i,new A.arE(l,b),k,s)
 i=l.b
 r=$.lc()
 q=A.n(r).i("b5<1>")
@@ -91880,7 +91880,7 @@ if(!J.mK(i.a(J.X(o.h(a,q),k)),j.b))J.d8(i.a(J.X(o.h(a,q),k)),j.b)
 return!0}if(p.b(o.h(a,q))&&J.X(o.h(a,q),l)!=null)if(j.$1(J.X(o.h(a,q),l)))return!0}}return!1},
 $S:27}
 A.arY.prototype={
-$1(a){var s=null,r=this.b,q=A.cZ(r,B.Ji,s,s,1,!1,s,s)
+$1(a){var s=null,r=this.b,q=A.cZ(r,B.Jh,s,s,1,!1,s,s)
 return A.e3(A.b([A.di(B.bc,new A.arW(a),s),A.dW(B.fN,new A.arX(this.a,r,a),A.dc(s,s,B.ab,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),s,q,B.Z2)},
 $S:15}
 A.arW.prototype={
@@ -91945,7 +91945,7 @@ A.as1.prototype={
 $0(){return this.a.r=!0},
 $S:0}
 A.as7.prototype={
-$1(a){var s=null,r=this.b,q=A.cZ(r,B.Ju,s,s,1,!1,s,s),p=this.a,o=this.c
+$1(a){var s=null,r=this.b,q=A.cZ(r,B.Jt,s,s,1,!1,s,s),p=this.a,o=this.c
 return A.e3(A.b([A.di(B.bc,new A.as4(a),s),A.dW(B.pc,new A.as5(p,a,o),A.dc(s,s,B.U,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)),A.dW(B.eg,new A.as6(p,r,o,a),A.dc(s,s,B.ab,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),s,q,B.ZU)},
 $S:15}
 A.as4.prototype={
@@ -92183,7 +92183,7 @@ $1(a){var s="Denominaci\xf3n"
 return J.d(J.X(a,s),J.X(this.a,s))},
 $S:27}
 A.arc.prototype={
-$1(a){var s=this,r=null,q=A.aG(s.b?"Crear Nuevo Insumo":"Editar Insumo Completo",r,r,r,r,r,r),p=s.c,o=s.d,n=s.e,m=s.f,l=t.p,k=A.jH(A.cU(A.b([A.cZ(p,B.JB,r,r,1,!1,r,r),B.bb,A.cZ(o,B.pd,r,B.iP,1,!1,r,r),B.bb,A.cZ(n,B.JG,r,r,1,!1,r,r),B.bb,A.cZ(m,B.pf,r,B.iP,1,!1,r,r)],l),B.E,B.B,B.aE),r,r)
+$1(a){var s=this,r=null,q=A.aG(s.b?"Crear Nuevo Insumo":"Editar Insumo Completo",r,r,r,r,r,r),p=s.c,o=s.d,n=s.e,m=s.f,l=t.p,k=A.jH(A.cU(A.b([A.cZ(p,B.JC,r,r,1,!1,r,r),B.bb,A.cZ(o,B.pd,r,B.iP,1,!1,r,r),B.bb,A.cZ(n,B.JG,r,r,1,!1,r,r),B.bb,A.cZ(m,B.pf,r,B.iP,1,!1,r,r)],l),B.E,B.B,B.aE),r,r)
 return A.e3(A.b([A.di(B.bc,new A.ara(a),r),A.dW(B.eg,new A.arb(s.a,p,a,s.r,s.w,m,n,o),A.dc(r,r,B.ab,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r))],l),r,k,q)},
 $S:15}
 A.ara.prototype={
@@ -98894,35 +98894,35 @@ B.aD=s([],t.oU)
 B.Jf=new A.lE("\ufffc",null,null,null,!0,!0,B.aD)
 B.Jg=new A.AA(null,null,null,null,null,null,null,null,null,B.oZ,B.no,!1,null,!1,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,!1,null,null)
 B.pd=new A.cw(null,null,null,"Cantidad",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jh=new A.cw(null,null,null,"Carrera / Unidad",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Ji=new A.cw(null,null,null,"Nombre de la Pr\xe1ctica",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jj=new A.cw(null,null,null,"Renombrar materia",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jk=new A.cw(null,null,null,"Unidad Solicitante",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jl=new A.cw(null,null,null,"Nombre",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jm=new A.cw(null,null,null,"Usuario deseado",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jn=new A.cw(null,null,null,"Columna CSV (Asignatura o Laboratorio)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jh=new A.cw(null,null,null,"Nombre de la Pr\xe1ctica",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Ji=new A.cw(null,null,null,"Renombrar materia",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jj=new A.cw(null,null,null,"Unidad Solicitante",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jk=new A.cw(null,null,null,"Nombre",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jl=new A.cw(null,null,null,"Columna CSV (Asignatura o Laboratorio)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.a2r=new A.cw(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Pz=new A.eV(4,B.eu,B.cE)
-B.Jo=new A.cw(null,null,null,"Enviar a carpeta / subcarpeta",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.Pz,!0,null,null,null,null)
-B.Jp=new A.cw(null,null,null,"Cantidad requerida",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jq=new A.cw(null,null,null,"Nombre de la Materia",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jr=new A.cw(null,null,null,"Concepto de la solicitud",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Js=new A.cw(null,null,null,"Asigna un nombre (Ej. Pedido Lunes)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jt=new A.cw(null,null,null,"Contrase\xf1a",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Ju=new A.cw(null,null,null,"Renombrar pr\xe1ctica",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jm=new A.cw(null,null,null,"Enviar a carpeta / subcarpeta",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.Pz,!0,null,null,null,null)
+B.Jn=new A.cw(null,null,null,"Cantidad requerida",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jo=new A.cw(null,null,null,"Nombre de la Materia",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jp=new A.cw(null,null,null,"Concepto de la solicitud",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jq=new A.cw(null,null,null,"Asigna un nombre (Ej. Pedido Lunes)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jr=new A.cw(null,null,null,"Usuario (Ej, AdminICI",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Js=new A.cw(null,null,null,"Contrase\xf1a",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jt=new A.cw(null,null,null,"Renombrar pr\xe1ctica",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Ju=new A.cw(null,null,null,"Carrera / Departamento",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.pe=new A.cw(null,null,null,"Personalizar Icono",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Jv=new A.cw(null,null,null,"Filtrar siguiente nivel por...",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.pf=new A.cw(null,null,null,"Precio Unitario (Bs.)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Jw=new A.cw(null,null,null,"Responsable",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Jy=new A.cw(null,null,null,"Nombre de la carpeta",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Jx=new A.cw(null,null,null,"Nombre de la tarjeta",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.Jz=new A.cw(null,null,null,"A\xf1o",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.JA=new A.cw(null,null,null,"Nombre del insumo",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.JB=new A.cw(null,null,null,"Nombre del Insumo",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.JC=new A.cw(null,null,null,"Mes",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.JD=new A.cw(null,null,null,"D\xeda",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.JE=new A.cw(null,null,null,"Nombre de la Base de Datos",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.JF=new A.cw(null,null,null,"Nombre del Laboratorio (Ej. Qu\xedmica)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.Jz=new A.cw(null,null,null,"Nombre del Laboratorio y Sede (Ej. Ingenier\xeda Civil Cochabamba)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.JA=new A.cw(null,null,null,"A\xf1o",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.JB=new A.cw(null,null,null,"Nombre del insumo",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.JC=new A.cw(null,null,null,"Nombre del Insumo",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.JD=new A.cw(null,null,null,"Mes",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.JE=new A.cw(null,null,null,"D\xeda",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.JF=new A.cw(null,null,null,"Nombre de la Base de Datos",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.JG=new A.cw(null,null,null,"Unidad (ej. Kg, m2, L, Pza)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.JI=new A.e9(0.25,0.5,B.a3)
 B.Pe=new A.i(0.05,0)
