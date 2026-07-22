@@ -91190,7 +91190,7 @@ A.asG.prototype={
 $0(){return this.a.e=!1},
 $S:0}
 A.asH.prototype={
-$1(a){var s=null,r=this.a,q=r.a,p=A.aF(q?"Crear BD Alternativa":"Crear Base Oficial",s,s,s,s,s,s),o=this.c,n=t.p,m=A.cU(A.b([A.aF(q?"Crear\xe1s una base alternativa.":"No existe Base Oficial. Crea la oficial y sube tu CSV maestro.",s,s,s,B.X1,s,s),B.cu,A.cZ(o,B.JF,s,s,1,!1,s,s)],n),B.E,B.B,B.aE)
+$1(a){var s=null,r=this.a,q=r.a,p=A.aF(q?"Crear BD Alternativa":"Crear Base Oficial",s,s,s,s,s,s),o=this.c,n=t.p,m=A.cU(A.b([A.aF(q?"Crear\xe1s una base alternativa.":"No existe Base Oficial. Crea la oficial y sube tu archivo CSV.",s,s,s,B.X1,s,s),B.cu,A.cZ(o,B.JF,s,s,1,!1,s,s)],n),B.E,B.B,B.aE)
 return A.e3(A.b([A.di(B.bc,new A.asB(a),s),A.dW(B.fN,new A.asC(r,this.b,o,a),A.dc(s,s,B.ab,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],n),s,m,p)},
 $S:15}
 A.asB.prototype={
