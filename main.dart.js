@@ -89876,7 +89876,7 @@ g=J.T(i,"config_id")
 $.hf=$.a7i=g==null?"oficial_"+A.k(l):g
 $.Mg="Oficial (Solo Lectura)"
 g=m.c
-if(g!=null)A.aJi(g,A.hl(new A.atl(),null,t.z))}else{g=A.cu("Error de conexi\xf3n con el servidor")
+if(g!=null)A.aJi(g,A.hl(new A.atl(),null,t.z))}else{g=A.cu("Usuario o contrase\xf1a incorrectos.")
 throw A.e(g)}n.push(6)
 s=5
 break
