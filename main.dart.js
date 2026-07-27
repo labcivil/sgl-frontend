@@ -89423,14 +89423,14 @@ J.d1(d.h(e,i),g,o)
 if(s.c==="Laboratorio"){s=d.h(e,i)
 r=J.ad(s)
 if(r.h(s,f)==null)r.m(s,f,A.p(t.N,t.z))
-for(s=o.length,r=t.N,q=t.z,n=0;n<o.length;o.length===s||(0,A.w)(o),++n){p=o[n]
-m=J.R(d.h(e,i),f)
-l=J.ad(m)
-if(l.h(m,p)==null)l.m(m,p,A.p(r,q))
-J.d1(J.R(J.R(d.h(e,i),f),p),h,!0)
-p=J.R(J.R(d.h(e,i),f),p)
-m=J.ad(p)
-if(m.h(p,j)==null)m.m(p,j,"Ciencia")}}}else J.k4(d.h(e,i),g)},
+for(s=o.length,r=t.N,q=t.z,n=0;n<o.length;o.length===s||(0,A.w)(o),++n){m=o[n]
+p=J.R(d.h(e,i),f)
+l=J.ad(p)
+if(l.h(p,m)==null)l.m(p,m,A.p(r,q))
+J.d1(J.R(J.R(d.h(e,i),f),m),h,!0)
+p=J.R(J.R(d.h(e,i),f),m)
+l=J.ad(p)
+if(l.h(p,j)==null)l.m(p,j,"Ciencia")}}}else J.k4(d.h(e,i),g)},
 $S:0}
 A.at5.prototype={
 $1(a){return a.b},
@@ -91860,7 +91860,7 @@ $S:0}
 A.auW.prototype={
 $0(){var s,r,q,p,o,n,m,l=this,k="icono",j="es_final",i="sub_configs",h=l.c,g=l.a
 h.m(0,k,g.a)
-h.m(0,j,l.d||g.b==="Laboratorio")
+h.m(0,j,l.d)
 h.m(0,"columna_csv",g.b)
 if(g.b!=null){s=l.e
 r=A.n(s).i("dg<1,2>")
@@ -91868,14 +91868,14 @@ q=r.i("dh<m.E,l>")
 p=A.U(new A.dh(new A.ar(new A.dg(s,r),new A.auO(),r.i("ar<m.E>")),new A.auP(),q),q.i("m.E"))
 h.m(0,"valores_seleccionados",p)
 if(g.b==="Laboratorio"){if(h.h(0,i)==null)h.m(0,i,A.p(t.N,t.z))
-for(g=p.length,s=t.N,r=t.z,o=0;o<p.length;p.length===g||(0,A.w)(p),++o){q=p[o]
-n=h.h(0,i)
-m=J.ad(n)
-if(m.h(n,q)==null)m.m(n,q,A.p(s,r))
-J.d1(J.R(h.h(0,i),q),j,!0)
-q=J.R(h.h(0,i),q)
-n=J.ad(q)
-if(n.h(q,k)==null)n.m(q,k,"Ciencia")}}}J.d1(J.R(l.b.a.e,i),l.f,h)},
+for(g=p.length,s=t.N,r=t.z,o=0;o<p.length;p.length===g||(0,A.w)(p),++o){n=p[o]
+q=h.h(0,i)
+m=J.ad(q)
+if(m.h(q,n)==null)m.m(q,n,A.p(s,r))
+J.d1(J.R(h.h(0,i),n),j,!0)
+q=J.R(h.h(0,i),n)
+m=J.ad(q)
+if(m.h(q,k)==null)m.m(q,k,"Ciencia")}}}J.d1(J.R(l.b.a.e,i),l.f,h)},
 $S:0}
 A.auO.prototype={
 $1(a){return a.b},
