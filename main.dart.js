@@ -92472,22 +92472,23 @@ af(){return new A.W8(A.q(t.N,t.z))}}
 A.W8.prototype={
 au(){this.aH()
 this.tH()},
-tH(){var s=0,r=A.O(t.H),q=1,p=[],o=this,n,m,l,k
+tH(){var s=0,r=A.O(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$tH=A.K(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:o.L(new A.asr(o))
 q=3
+n=Date.now()
 s=6
-return A.J(A.fZ(A.bO("https://sgl-univalle-backend.onrender.com/listar-pendientes")),$async$tH)
-case 6:n=b
-if(n.b===200)o.L(new A.ass(o,n))
+return A.J(A.fZ(A.bO("https://sgl-univalle-backend.onrender.com/listar-pendientes?t="+A.j(n))),$async$tH)
+case 6:m=b
+if(m.b===200)o.L(new A.ass(o,m))
 q=1
 s=5
 break
 case 3:q=2
-k=p.pop()
-m=A.a8(k)
+j=p.pop()
+l=A.a8(j)
 o.L(new A.ast(o))
-o.c.S(t.q).f.bt(A.cS(null,null,null,B.V,null,B.n,null,A.aD("Error de conexi\xf3n: "+A.j(m),null,null,null,null,null,null,null),null,B.I,null,null,null,null,null,null,null,null,null,null))
+o.c.S(t.q).f.bt(A.cS(null,null,null,B.V,null,B.n,null,A.aD("Error de conexi\xf3n: "+A.j(l),null,null,null,null,null,null,null),null,B.I,null,null,null,null,null,null,null,null,null,null))
 s=5
 break
 case 2:s=1
