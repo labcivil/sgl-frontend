@@ -91552,7 +91552,7 @@ if(!b&&J.R(q.a.e,"columna_csv")!=null)k.m(0,J.R(q.a.e,"columna_csv"),a)
 i=q.c
 i.toString
 s=2
-return A.I(A.ds(!0,new A.avn(j,q,m,k,new A.avg(j,q,l,p,k,m),a,b,l,p,n),i,h),$async$tm)
+return A.I(A.ds(!0,new A.avn(j,q,m,k,new A.avg(j,q,l,p,k,m),a,b,n,l,p),i,h),$async$tm)
 case 2:return A.M(null,r)}})
 return A.N($async$tm,r)},
 QY(a,b){var s,r,q,p,o,n,m=this,l="sub_configs",k="columna_csv",j=m.a.e,i=J.ad(j)
@@ -91723,23 +91723,22 @@ j=A.hi(new A.b4(k,j),new A.av6(),j.i("m.E"),i)
 k=A.U(j,A.n(j).i("m.E"))
 j=t.N
 l.push(A.pG(B.p3,f,!0,k,new A.av7(e,b),o,j))
-l.push(B.cv)
-o=e.b
+if(!g.x){o=e.b
 k=g.c
 h=A.n(k).i("b4<1>")
 i=A.hi(new A.b4(k,h),new A.av8(),h.i("m.E"),i)
 k=A.U(i,A.n(i).i("m.E"))
-l.push(A.pG(B.Jc,f,!0,k,new A.av9(e,b,g.e),o,j))
-o=e.b
-if(o!=null&&g.x.a!==0){k=A.eQ(A.az(o==="Laboratorio"?"Seleccionar pr\xe1cticas de laboratorio:":"Seleccionar sub-tarjetas:",f,f,f,!0,B.fK,f,f))
-j=g.x
-o=A.n(j)
-k=A.eq(A.b([k,A.da(A.az(new A.b6(j,o.i("b6<2>")).d9(0,new A.ava())?"Deseleccionar todos":"Seleccionar todos",f,f,f,f,B.AZ,f,f),new A.avb(b,j),f)],m),B.B,B.di,B.X,0)
-o=o.i("b4<1>")
-o=A.hi(new A.b4(j,o),new A.avc(j,b),o.i("m.E"),t.al)
-o=A.U(o,A.n(o).i("m.E"))
-B.b.O(l,A.b([k,A.cR(A.aDn(o,f,f,!1),180,f)],m))}o=A.jH(A.cV(l,B.aU,B.y,B.aE),f,f)}s=A.fH(f,o,B.w,f,B.n9,f,f,f,f,f,f,f,s.a.a/3)
-return A.dS(A.b([A.da(B.eh,new A.avd(n),f),A.dL(B.eg,new A.ave(e,p,g.y,g.z,g.x,q,n),A.d6(f,f,B.bu,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f))],m),B.f,s,r)},
+o=A.b([B.cv,A.pG(B.Jc,f,!0,k,new A.av9(e,b,g.e),o,j)],m)
+k=e.b
+if(k!=null&&g.y.a!==0){j=A.eQ(A.az(k==="Laboratorio"?"Seleccionar pr\xe1cticas de laboratorio:":"Seleccionar sub-tarjetas:",f,f,f,!0,B.fK,f,f))
+i=g.y
+k=A.n(i)
+j=A.eq(A.b([j,A.da(A.az(new A.b6(i,k.i("b6<2>")).d9(0,new A.ava())?"Deseleccionar todos":"Seleccionar todos",f,f,f,f,B.AZ,f,f),new A.avb(b,i),f)],m),B.B,B.di,B.X,0)
+k=k.i("b4<1>")
+k=A.hi(new A.b4(i,k),new A.avc(i,b),k.i("m.E"),t.al)
+k=A.U(k,A.n(k).i("m.E"))
+B.b.O(o,A.b([j,A.cR(A.aDn(k,f,f,!1),180,f)],m))}B.b.O(l,o)}o=A.jH(A.cV(l,B.aU,B.y,B.aE),f,f)}s=A.fH(f,o,B.w,f,B.n9,f,f,f,f,f,f,f,s.a.a/3)
+return A.dS(A.b([A.da(B.eh,new A.avd(n),f),A.dL(B.eg,new A.ave(e,p,g.z,g.x,g.y,q,n),A.d6(f,f,B.bu,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f))],m),B.f,s,r)},
 $S:64}
 A.av4.prototype={
 $1(a){var s=this,r=a.b===200&&s.b.c!=null,q=s.c,p=s.a
@@ -91861,7 +91860,7 @@ $S:0}
 A.auW.prototype={
 $0(){var s,r,q,p,o,n,m,l=this,k="icono",j="es_final",i="sub_configs",h=l.c,g=l.a
 h.m(0,k,g.a)
-h.m(0,j,l.d)
+h.m(0,j,l.d||g.b==="Laboratorio")
 h.m(0,"columna_csv",g.b)
 if(g.b!=null){s=l.e
 r=A.n(s).i("dg<1,2>")
