@@ -25946,8 +25946,8 @@ ad6:function ad6(a,b){this.a=a
 this.b=b},
 ad7:function ad7(a){this.a=a},
 MW:function MW(a){this.a=a},
-a8N:function a8N(){},
-a8M:function a8M(){},
+a8N:function a8N(a){this.a=a},
+a8M:function a8M(a){this.a=a},
 qO:function qO(a){this.a=a},
 Gj:function Gj(a,b){var _=this
 _.d=a
@@ -88805,20 +88805,24 @@ A.ad7.prototype={
 $1(a){return a.f===this.a},
 $S:35}
 A.MW.prototype={
-I(a){var s=null
-return new A.B4($.aCl(),B.vU,new A.a8N(),"Gesti\xf3n de Laboratorios",A.w1(s,A.aGT(B.an,s,s,B.bf),B.Fg,!0),s)}}
+I(a){var s=null,r={}
+r.a=0
+return new A.B4($.aCl(),B.vU,new A.a8N(r),"Gesti\xf3n de Laboratorios",A.w1(s,A.aGT(B.an,s,s,B.bf),B.Fg,!0),s)}}
 A.a8N.prototype={
 $2(a,b){var s=null
 b.toString
-return A.uP(B.bP,b,s,new A.a8M(),s,s,s)},
+return A.uP(B.bP,b,s,new A.a8M(this.a),s,s,s)},
 $S:522}
 A.a8M.prototype={
-$1(a){var s,r
-if(a.gdK(a)===8){s=$.aCl()
-r=s.gN()
-r=r==null?null:r.HD()
-if(r===!0){s=s.gN()
-if(s!=null)s.ew()}}},
+$1(a){var s,r,q
+if(a.gdK(a)===8){s=Date.now()
+r=this.a
+if(s-r.a>300){r.a=s
+r=$.aCl()
+q=r.gN()
+q=q==null?null:q.HD()
+if(q===!0){r=r.gN()
+if(r!=null)r.ew()}}}},
 $S:56}
 A.qO.prototype={
 ae(){var s=$.ak()
